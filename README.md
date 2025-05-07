@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @MehmetEmreee
 - 👀 I’m interested in arduino , flutter and electrical projects.
-- 🌱 I’m studying at ITU MTAL
+- 🌱 I’m studying at Marmara University Mechatronics Engineering
 - 💞️ I’m looking to collaborate on SPACE.
 - memreyecelebi@icloud.com is my e-mail adress.
 
