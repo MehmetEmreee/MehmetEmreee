@@ -35,9 +35,9 @@
 
 ### 🐍 Snake Commit Grafiği
 
-![snake gif](https://github.com/MehmetEmreee/MehmetEmreee/blob/output/github-contribution-grid-snake.svg)
-
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MehmetEmreee/MehmetEmreee/output/github-contribution-grid-snake.svg" />
+</p>
 
 ### 📫 Bana Ulaş
 
