@@ -1,6 +1,5 @@
 <div align="center">
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Mehmet%20Emre%20Celebi&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Mechatronics%20Engineer%20Student%20%7C%20Embedded%20Systems%20%7C%20IoT%20and%20Edge%20AI&descSize=18&descAlignY=58&descColor=a78bfa&animation=fadeIn" alt="Profile Banner" /><br/><br/>
-
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=A78BFA&center=true&vCenter=true&width=900&lines=Building+autonomous+systems+with+embedded+tech+%26+Edge+AI.;STM32+%7C+Raspberry+Pi+%7C+T3+Gemstone+O1+%7C+C%2FC%2B%2B;Real-time+object+detection+at+the+edge+%E2%80%94+no+cloud+needed.;G%C3%B6m%C3%BCl%C3%BC+sistemler+ve+IoT+ile+otonom+yap%C4%B1lar+geli%C5%9Ftiriyorum.;Hackathon+winner+%F0%9F%8F%86+%7C+Erasmus%2B+alumnus+%F0%9F%8C%8D+%7C+T3+Scholar+%E2%AD%90" alt="Typing SVG" />
 </a><br/><br/>
