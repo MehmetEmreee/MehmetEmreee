@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Mehmet%20Emre%20Çelebi&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Automation%20Engineer%20%7C%20AI%20Explorer%20%7C%20Maker&descSize=18&descAlignY=58&descColor=a78bfa&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Mehmet%20Emre%20%C3%87elebi&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Automation%20Engineer%20%7C%20AI%20Explorer%20%7C%20Maker&descSize=18&descAlignY=58&descColor=a78bfa&animation=fadeIn" />
 
 <!-- Typing Animation -->
 <a href="https://git.io/typing-svg">
@@ -17,7 +17,7 @@
   </a>
   &nbsp;
   <a href="https://www.linkedin.com/in/mehmet-emre-%C3%A7elebi-12a90122b/">
-    <img src="https://img.shields.io/badge/LinkedIn-Mehmet%20Emre%20Çelebi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-Mehmet%20Emre%20%C3%87elebi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   &nbsp;
   <a href="https://twitter.com/memrew00">
@@ -72,78 +72,64 @@ class MehmetEmre:
 
 ## 🔥 Güncel Projeler
 
+<!-- PINNED_REPOS_START -->
 <table>
-  <tr>
-    <td width="50%">
-      <h3 align="center">🛡️ Güvenlik Sistemi</h3>
-      <p align="center">
-        <a href="https://github.com/MehmetEmreee/Guvenlik-Sistemi">
-          <img src="https://img.shields.io/badge/Repo-Guvenlik--Sistemi-7C3AED?style=flat-square&logo=github" />
-        </a>
-      </p>
-      <p align="center">
-        <strong>Raspberry Pi 5 + Google Coral + Frigate NVR</strong> ile yapay zeka destekli nesne tespiti. Tetiklenen alarmlar anlık fotoğraflarla <strong>Telegram</strong>'a iletiliyor.
-      </p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/Google_Coral-4285F4?style=flat-square&logo=google&logoColor=white" />
-        <img src="https://img.shields.io/badge/Frigate_NVR-FF6B35?style=flat-square" />
-      </p>
-    </td>
-    <td width="50%">
-      <h3 align="center">📡 MITM Dedektörü</h3>
-      <p align="center">
-        <a href="https://github.com/MehmetEmreee/Deneyapkart-MITM-Detector">
-          <img src="https://img.shields.io/badge/Repo-MITM--Detector-E01F3D?style=flat-square&logo=github" />
-        </a>
-      </p>
-      <p align="center">
-        <strong>Deneyap Kart 1A V2</strong> ile Wi-Fi ağlarında <strong>Deauthentication</strong> ve <strong>ARP Spoofing</strong> saldırılarını gerçek zamanlı tespit eden güvenlik sistemi.
-      </p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" />
-        <img src="https://img.shields.io/badge/Deneyap_Kart-E30A17?style=flat-square" />
-        <img src="https://img.shields.io/badge/Wi--Fi_Security-🔒-00AA44?style=flat-square" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3 align="center">🔐 Şifreli Haberleşme</h3>
-      <p align="center">
-        <a href="https://github.com/MehmetEmreee/deneyapkartkriptoluhaberlesme">
-          <img src="https://img.shields.io/badge/Repo-Kriptolu--Haberlesme-7C3AED?style=flat-square&logo=github" />
-        </a>
-      </p>
-      <p align="center">
-        Deneyap Kart ile <strong>ESP-NOW</strong> üzerinden <strong>AES-CTR şifreleme</strong> ve <strong>HMAC doğrulama</strong> kullanan güvenli kablosuz haberleşme altyapısı.
-      </p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/AES--CTR-000000?style=flat-square&logo=letsencrypt&logoColor=white" />
-        <img src="https://img.shields.io/badge/ESP--NOW-E7352C?style=flat-square&logo=espressif&logoColor=white" />
-        <img src="https://img.shields.io/badge/HMAC-7C3AED?style=flat-square" />
-      </p>
-    </td>
-    <td width="50%">
-      <h3 align="center">📶 Deneyap BLE Kütüphanesi</h3>
-      <p align="center">
-        <a href="https://github.com/MehmetEmreee/DeneyapKartBLE">
-          <img src="https://img.shields.io/badge/Repo-DeneyapKartBLE-0A66C2?style=flat-square&logo=github" />
-        </a>
-        &nbsp;
-        <img src="https://img.shields.io/github/stars/MehmetEmreee/DeneyapKartBLE?style=flat-square&color=FFD700" />
-      </p>
-      <p align="center">
-        NimBLE veya Bluedroid'i otomatik seçerek <strong>notify + write</strong> BLE karakteristik çiftiyle çift yönlü seri iletişim sunan hafif kütüphane.
-      </p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Bluetooth_LE-0082FC?style=flat-square&logo=bluetooth&logoColor=white" />
-        <img src="https://img.shields.io/badge/NimBLE-00AA44?style=flat-square" />
-        <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" />
-      </p>
-    </td>
-  </tr>
+    <tr>
+      <td width="50%">
+        <h3 align="center">🛡️ Guvenlik-Sistemi</h3>
+        <p align="center">
+          <a href="https://github.com/MehmetEmreee/Guvenlik-Sistemi">
+            <img src="https://img.shields.io/badge/Repo-Guvenlik--Sistemi-7C3AED?style=flat-square&logo=github" />
+          </a>
+        </p>
+        <p align="center">Raspberry Pi 5 + Google Coral + Frigate NVR ile yapay zeka destekli nesne tespiti. Telegram bildirimleri dahil.</p>
+        <p align="center">
+          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        </p>
+      </td>
+      <td width="50%">
+        <h3 align="center">📡 Deneyapkart-MITM-Detector</h3>
+        <p align="center">
+          <a href="https://github.com/MehmetEmreee/Deneyapkart-MITM-Detector">
+            <img src="https://img.shields.io/badge/Repo-MITM--Detector-7C3AED?style=flat-square&logo=github" />
+          </a>
+        </p>
+        <p align="center">Wi-Fi ağlarında Deauth ve ARP Spoofing saldırılarını gerçek zamanlı tespit eden güvenlik sistemi.</p>
+        <p align="center">
+          <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" />
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%">
+        <h3 align="center">🔐 deneyapkartkriptoluhaberlesme</h3>
+        <p align="center">
+          <a href="https://github.com/MehmetEmreee/deneyapkartkriptoluhaberlesme">
+            <img src="https://img.shields.io/badge/Repo-Kriptolu--Haberlesme-7C3AED?style=flat-square&logo=github" />
+          </a>
+        </p>
+        <p align="center">ESP-NOW üzerinden AES-CTR şifreleme ve HMAC doğrulama kullanan güvenli kablosuz haberleşme altyapısı.</p>
+        <p align="center">
+          <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" />
+        </p>
+      </td>
+      <td width="50%">
+        <h3 align="center">📶 DeneyapKartBLE</h3>
+        <p align="center">
+          <a href="https://github.com/MehmetEmreee/DeneyapKartBLE">
+            <img src="https://img.shields.io/badge/Repo-DeneyapKartBLE-7C3AED?style=flat-square&logo=github" />
+          </a>
+          &nbsp;
+          <img src="https://img.shields.io/github/stars/MehmetEmreee/DeneyapKartBLE?style=flat-square&color=FFD700" />
+        </p>
+        <p align="center">NimBLE/Bluedroid otomatik seçimi ile çift yönlü BLE seri iletişim kütüphanesi.</p>
+        <p align="center">
+          <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" />
+        </p>
+      </td>
+    </tr>
 </table>
+<!-- PINNED_REPOS_END -->
 
 ---
 
@@ -203,7 +189,7 @@ class MehmetEmre:
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MehmetEmreee/MehmetEmreee/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MehmetEmreee/MehmetEmreee/output/github-contribution-grid-snake.svg" />
-    <img alt="snake animation" src="https://raw.githubusercontent.com/MehmetEmreee/MehmetEmreee/output/github-contribution-grid-snake.svg" />
+    <img alt="snake animation" src="https://raw.githubusercontent.com/MehmetEmreee/MehmetEmreee/output/github-contribution-grid-snake-dark.svg" />
   </picture>
 </div>
 
