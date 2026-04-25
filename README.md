@@ -37,9 +37,7 @@
 Marmara Üniversitesi Mekatronik Mühendisliği öğrencisiyim. Teknik altyapımı İTÜ Mesleki ve Teknik Anadolu Lisesi'nde oluşturdum. T3 Vakfı Yükselen Yıldız Bursiyeri olarak DENEYAP Kart kütüphanelerine ve siber güvenlik projelerine katkı sağlıyor; Raspberry Pi, Beagle ve STM32 mimarileriyle uçtan uca otonom sistemler geliştiriyorum.<br>
 Pulse Electronic'te endüstriyel elektronik sistemler üzerine iki dönem staj yaptım — Altium Designer ile PCB tasarımından sensör entegrasyonuna, IoT uygulamalarından endüstriyel kontrol sistemlerine kadar sahada deneyim kazandım. İnşaat sektörüne yönelik güvenlik sistemleri geliştirdim, App Store'da yayımlanmış bir mobil uygulamam var. Marmara Üniversitesi Girişimcilik ve Yatırım Kulübü'nde Strateji ve Proje Geliştirme Başkanlığı yaptım.<br>
 Mühendislik merakım 5 yaşında bir tornavida ve bir priz ile başladı. İşte hâlâ buradayım. ⚡
-
 <br><br>
-
 **🇬🇧 English**<br>
 I'm a Mechatronics Engineering student at Marmara University. I built my technical foundation at Istanbul Technical University Vocational and Technical Anatolian High School. As a T3 Foundation Rising Star Scholar, I contribute to DENEYAP Board libraries and cybersecurity projects, and develop end-to-end autonomous systems using Raspberry Pi, Beagle, and STM32 architectures.<br>
 I completed two internship periods at Pulse Electronic in industrial electronics — gaining hands-on experience in PCB design with Altium Designer, sensor integration, IoT applications, and industrial control systems. I've built security systems for construction sites, published a mobile app on the App Store, and served as President of the Strategy and Project Development Department at Marmara University's Entrepreneurship and Investment Club.<br>
@@ -123,7 +121,6 @@ My engineering curiosity started with a screwdriver and a power outlet at age 5.
     </td>
   </tr>
 </table>
----
 
 ## 🛠️ Kullandığım Teknolojiler / Tech Stack
 
