@@ -48,6 +48,14 @@ My engineering curiosity started with a screwdriver and a power outlet at age 5.
 
 ## 🔥 Güncel Projeler / Current Projects
 <!-- PINNED_REPOS_START -->
+## 📌 Pinned Repositories
+
+- **[Deneyapkart-MITM-Detector](https://github.com/MehmetEmreee/Deneyapkart-MITM-Detector)** — Deneyap Kart 1A V2 kullanılarak geliştirilen bu sistem, Wi-Fi ağlarında gerçekleşebilecek Deauthentication ve ARP Spoofing tabanlı yetkisiz müdahaleleri tespit ederek, güvenlik farkındalığını artırmayı amaçlayan gerçek zamanlı bir izleme çözümüdür. `C++` ⭐1 🍴0
+- **[WolController](https://github.com/MehmetEmreee/WolController)** —  `C++` ⭐2 🍴0
+- **[deneyapkartkriptoluhaberlesme](https://github.com/MehmetEmreee/deneyapkartkriptoluhaberlesme)** — Deneyap Kart 1A ve 1A v2 ile ESP-NOW üzerinden AES-CTR şifreleme ve HMAC doğrulama kullanarak güvenli mesaj iletimi sağlayan bir proje. `C++` ⭐1 🍴0
+- **[Guvenlik-Sistemi](https://github.com/MehmetEmreee/Guvenlik-Sistemi)** — Raspberry Pi 5 ve Google Coral ile güçlendirilmiş bu proje, Frigate NVR üzerinden yapay zeka tespiti yaparak sensör alarmlarını Telegram'a anlık fotoğraflarla bildiren gelişmiş bir güvenlik otomasyonudur. `Python` ⭐1 🍴0
+- **[deneyap-5x7-led-matris-arduino-library](https://github.com/deneyapkart/deneyap-5x7-led-matris-arduino-library)** — Arduino library for Deneyap 5x7 LED Matrix `C++` ⭐3 🍴2
+- **[DeneyapKartBLE](https://github.com/MehmetEmreee/DeneyapKartBLE)** — Deneyapkartlar üzerinde NimBLE veya Bluedroid’i otomatik seçerek notify+write karakteristik çiftiyle seri benzeri çift yönlü veri iletişimi sunan hafif BLE kütüphanesi. `C++` ⭐2 🍴0
 <!-- PINNED_REPOS_END -->
 <table>
   <tr>
