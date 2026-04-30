@@ -1,38 +1,67 @@
-name: Update README with Pinned Repos
+import os
+import re
+import requests
 
-on:
-  schedule:
-    - cron: "0 */6 * * *"   # 6 saatte bir güncelle
-  workflow_dispatch:
-  push:
-    branches:
-      - main
+USERNAME = "MehmetEmreee"
+TOKEN = os.environ.get("GH_TOKEN")
 
-jobs:
-  update:
-    runs-on: ubuntu-latest
+headers = {
+    "Authorization": f"bearer {TOKEN}",
+    "Content-Type": "application/json"
+}
 
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+query = """
+{
+  user(login: "%s") {
+    pinnedItems(first: 6, types: REPOSITORY) {
+      nodes {
+        ... on Repository {
+          name
+          description
+          url
+          stargazerCount
+          forkCount
+          primaryLanguage {
+            name
+          }
+        }
+      }
+    }
+  }
+}
+""" % USERNAME
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
+response = requests.post(
+    "https://api.github.com/graphql",
+    json={"query": query},
+    headers=headers
+)
 
-      - name: Install dependencies
-        run: pip install requests
+data = response.json()
+repos = data["data"]["user"]["pinnedItems"]["nodes"]
 
-      - name: Run update script
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python update_readme.py
+md_lines = ["## 📌 Pinned Repositories\n"]
+for repo in repos:
+    lang = repo["primaryLanguage"]["name"] if repo["primaryLanguage"] else "N/A"
+    desc = repo["description"] or ""
+    md_lines.append(
+        f"- **[{repo['name']}]({repo['url']})** — {desc} "
+        f"`{lang}` ⭐{repo['stargazerCount']} 🍴{repo['forkCount']}"
+    )
 
-      - name: Commit and push if changed
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git diff --cached --quiet || git commit -m "chore: auto-update pinned repos [skip ci]"
-          git push
+pinned_section = "\n".join(md_lines)
+
+with open("README.md", "r") as f:
+    content = f.read()
+
+new_content = re.sub(
+    r"<!-- PINNED_REPOS_START -->.*?<!-- PINNED_REPOS_END -->",
+    f"<!-- PINNED_REPOS_START -->\n{pinned_section}\n<!-- PINNED_REPOS_END -->",
+    content,
+    flags=re.DOTALL
+)
+
+with open("README.md", "w") as f:
+    f.write(new_content)
+
+print("README.md updated!")
