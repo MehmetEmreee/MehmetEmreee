@@ -21,9 +21,7 @@ query = """
           url
           stargazerCount
           forkCount
-          primaryLanguage {
-            name
-          }
+          primaryLanguage { name color }
         }
       }
     }
@@ -37,19 +35,44 @@ response = requests.post(
     headers=headers
 )
 
-data = response.json()
-repos = data["data"]["user"]["pinnedItems"]["nodes"]
+repos = response.json()["data"]["user"]["pinnedItems"]["nodes"]
 
-md_lines = ["## 📌 Pinned Repositories\n"]
-for repo in repos:
-    lang = repo["primaryLanguage"]["name"] if repo["primaryLanguage"] else "N/A"
-    desc = repo["description"] or ""
-    md_lines.append(
-        f"- **[{repo['name']}]({repo['url']})** — {desc} "
-        f"`{lang}` ⭐{repo['stargazerCount']} 🍴{repo['forkCount']}"
-    )
+LANG_BADGE = {
+    "C++":    "C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white",
+    "Python": "Python-3776AB?style=flat-square&logo=python&logoColor=white",
+    "C":      "C-A8B9CC?style=flat-square&logo=c&logoColor=black",
+    "Swift":  "Swift-FA7343?style=flat-square&logo=swift&logoColor=white",
+    "Dart":   "Dart-0175C2?style=flat-square&logo=dart&logoColor=white",
+}
 
-pinned_section = "\n".join(md_lines)
+def lang_badge(lang):
+    if not lang:
+        return ""
+    badge = LANG_BADGE.get(lang, f"{lang}-555555?style=flat-square")
+    return f'<img src="https://img.shields.io/badge/{badge}" alt="{lang}" />'
+
+rows = []
+for i in range(0, len(repos), 2):
+    pair = repos[i:i+2]
+    cells = ""
+    for repo in pair:
+        lang = repo["primaryLanguage"]["name"] if repo["primaryLanguage"] else None
+        desc = repo.get("description") or ""
+        stars = repo["stargazerCount"]
+        forks = repo["forkCount"]
+        cells += f"""
+    <td width="50%" valign="top">
+      <h3 align="center"><a href="{repo['url']}">{repo['name']}</a></h3>
+      <p align="center">{desc}</p>
+      <p align="center">
+        {lang_badge(lang)}
+        <img src="https://img.shields.io/badge/⭐-{stars}-FFD700?style=flat-square" alt="stars" />
+        <img src="https://img.shields.io/badge/🍴-{forks}-lightgrey?style=flat-square" alt="forks" />
+      </p>
+    </td>"""
+    rows.append(f"  <tr>{cells}\n  </tr>")
+
+pinned_section = "<table>\n" + "\n".join(rows) + "\n</table>"
 
 with open("README.md", "r") as f:
     content = f.read()
