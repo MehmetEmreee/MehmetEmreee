@@ -47,7 +47,8 @@ My engineering curiosity started with a screwdriver and a power outlet at age 5.
 ---
 
 ## 🔥 Güncel Projeler / Current Projects
-
+<!-- PINNED_REPOS_START -->
+<!-- PINNED_REPOS_END -->
 <table>
   <tr>
     <td width="50%" valign="top">
